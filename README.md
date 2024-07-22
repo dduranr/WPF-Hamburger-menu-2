@@ -2,9 +2,4 @@ Este proyecto está basado en el tutorial https://www.youtube.com/watch?v=YQ1EJJ
 
 Paquetes NuGet instalados: MaterialDesignThemes y MaterialDesignColors
 
-En App.xaml se usan estos 4 recursos, de los cuales, el 3 y 4 ya no existen más:
-    <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
-    <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
-    <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.Blue.xaml" />
-    <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Indigo.xaml" />
-Por lo que el estilo MaterialDesignFloatingActionMiniAccentButton usado en los botones devuelve error. Simplemente se deja de usar el recurso.
+En App.xaml se usan  4 recursos, de los cuales, MaterialDesignTheme.Defaults.xaml y MaterialDesignColor.Indigo.xaml ya no existen más: Por lo que el estilo MaterialDesignFloatingActionMiniAccentButton usado en los botones devuelve error. Simplemente se deja de usar el recurso.
